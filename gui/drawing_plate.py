@@ -81,7 +81,7 @@ class Drawing_Plate:
 		""" Mouse middle-button press. Deletes the closest object. """
 
 		obj = self.__drawing_plate.find_closest(event.x, event.y)
-		self.__drawing_plot.delete(obj)
+		self.__drawing_plate.delete(obj)
 
 	def clear(self):
 		""" Clears the whole drawing_plate. """
